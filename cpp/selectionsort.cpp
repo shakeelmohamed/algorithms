@@ -6,8 +6,7 @@ void selectionSort(int* list, unsigned size)
 {
     if (!list || size == 0)
         return;
-    int minIndex = 0;
-    for (int i = 1; i < size; i++)
+    for (int i = 0; i < size; i++)
     {
         for (int j = i; j < size; j++)
         {
@@ -23,7 +22,7 @@ void selectionSort(int* list, unsigned size)
 int main()
 {   int size = 6;
     int* list = new int[size];
-    list[0] = 0;
+    list[0] = 12;
     list[1] = 40;
     list[2] = 2;
     list[3] = 1;
