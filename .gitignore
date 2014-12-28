@@ -15,3 +15,5 @@ java/.idea/*
 algorithms.iml
 
 cpp/selectionsort
+
+java/out/.idea/*
